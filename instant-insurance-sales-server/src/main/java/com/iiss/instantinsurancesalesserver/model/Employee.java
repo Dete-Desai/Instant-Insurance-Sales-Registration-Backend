@@ -1,10 +1,7 @@
 package com.iiss.instantinsurancesalesserver.model;
 
-import javax.persistence.Id;
-
 public class Employee {
 
-    @Id
     public int id;
     public String firstName;
     public String lastName;
